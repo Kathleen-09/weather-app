@@ -82,11 +82,10 @@ main{
 }
 
 .weather-forecast {
-    display: inline-flex;
+    display: flex;
     justify-content:space-around;
     margin-top:30px;
-    padding: 55px;
-    margin: -1px;
+    
 }
 
 .weather-forecast-date {
@@ -103,7 +102,7 @@ main{
 }
 
 .weather-forecast-temperatures {
-    display: inline-flex;
+    display: flex;
     color: #f65282;
     justify-content: center;
     margin-top: 10px;
